@@ -4,7 +4,7 @@
   .row {
     div {
       padding: 0 !important;
-      margin: 0 !important;
+      margin: 0!important;
     }
     margin: auto 188px !important;
     .col-md-12 {
@@ -23,57 +23,23 @@
   h1 {
     color: #c11000;
   }
-  h2 {
+  h2{
     line-height: 68px;
   }
 }
 
-.report_content {
+.report_content{
 
-  .report_table {
-    width: 100%;
-    margin-bottom: 38px;
+  .report_table{
+  width: 100%;
+      margin-bottom: 38px;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  html {
-    font-size: 11px
-  }
-}
-
-@media screen and (min-width: 376px) and (max-width: 414px) {
-  html {
-    font-size: 12px
-  }
-}
-
-@media screen and (min-width: 415px) and (max-width: 639px) {
-  html {
-    font-size: 15px
-  }
-}
-
-@media screen and (min-width: 640px) and (max-width: 719px) {
-  html {
-    font-size: 20px
-  }
-}
-
-@media screen and (min-width: 720px) and (max-width: 749px) {
-  html {
-    font-size: 22.5px
-  }
-}
-
-@media screen and (min-width: 750px) and (max-width: 799px) {
-  html {
-    font-size: 23.5px
-  }
-}
-
-@media screen and (min-width: 800px) {
-  html {
-    font-size: 16px
-  }
-}
+@media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}}
+@media screen and (min-width:800px){html{font-size:16px}}
