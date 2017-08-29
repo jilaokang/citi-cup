@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import "var";
+
+a {
+  color: $main_content_black;
+  text-decoration: none !important;
+}
+
+hr {
+  width: 96%;
+}
+
+.modal-body {
+  p {
+    font-size: 1.2em;
+  }
+}

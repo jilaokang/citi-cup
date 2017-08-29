@@ -1,0 +1,10 @@
+@charset "utf-8";
+@import "var";
+
+@for $i from 10 through 30 {
+  .line_height_#{$i} { line-height: 0.1 * $i; }
+}
+
+@mixin border_bottom_red_md {
+  border-bottom: 3px solid $main_red;
+}

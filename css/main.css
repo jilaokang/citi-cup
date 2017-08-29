@@ -1,0 +1,22 @@
+#report .row {
+  margin: auto 188px !important; }
+  #report .row div {
+    padding: 0 !important;
+    margin: 0 !important; }
+  #report .row .col-md-12 {
+    padding: 0;
+    margin: 0; }
+  #report .row .col-md-10 {
+    font-size: 1.2em !important;
+    line-height: 1.5;
+    margin-top: 20px; }
+  #report .row #table_title2 {
+    border-bottom: 3px solid #C11000; }
+#report h1 {
+  color: #c11000; }
+#report h2 {
+  line-height: 68px; }
+
+.report_content .report_table {
+  width: 100%;
+  margin-bottom: 38px; }

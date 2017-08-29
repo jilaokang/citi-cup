@@ -1,0 +1,667 @@
+﻿
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    padding: 1rem;
+    height: 4.5rem;
+    overflow: hidden;
+}
+.small-nav{
+    display: none;
+    position: fixed;
+    top: 4.5rem;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background: #ffffff;
+}
+.small-nav .mobile-nav{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    text-indent: 2rem;
+    line-height: 3rem;
+    font-size: 1rem;
+}
+.small-nav .mobile-nav li{
+    border-bottom: 1px solid #cccccc;
+}
+.small-nav .mobile-nav li a{
+    color: #333333;
+    display: block;
+    width: 100%;
+}
+.mobile-icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.navbar-relative{
+    position: absolute;
+    width: 100%;
+    z-index: 998;
+    padding: 1rem;
+    height: 4.5rem;
+    overflow: hidden;
+}
+.background-nav{
+    background: #2f365e;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+nav {
+    color: #fff;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+nav .nav-wrapper{
+    min-height: 2.5rem;
+}
+nav a {
+    color: #fff;
+    line-height: 2.5rem;
+}
+nav .logo{
+    height: 2.5rem;
+    width: auto;
+}
+nav ul {
+    margin: 0;
+}
+nav ul li {
+    transition: color .3s;
+    float: left;
+    padding: 0;
+}
+
+nav ul li .active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav ul a {
+    transition: color .3s;
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+nav ul .btn {
+    margin-top: -3px;
+    margin-left: 2rem;
+}
+
+nav ul a:hover {
+    color: #ffffff;
+}
+
+/*banner*/
+
+.btn {
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #5584ff !important;
+    color: #ffffff;
+}
+.btn-small{
+    display: inline-block;
+    height: 2rem;
+    padding: 0 1.2rem;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-clip: padding-box;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600 !important;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    background-color:#5584ff ;
+}
+.btn-large{
+    display: inline-block;
+    height: 3.2rem;
+    padding: 0 3rem;
+    font-weight: 600 !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-clip: padding-box;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+}
+.btn:hover{
+    background-color: #5584ff;
+    transition: background-color .6s;
+}
+
+.hero_fullscreen.background_solid,
+.color_bg {
+    background: url('../images/banner-bg06-01.jpg') center no-repeat;
+    background-size: auto;
+    height: 37.5rem;
+}
+.home_content {
+    position:relative;
+    width:100%;
+}
+.banner_container{
+    margin-top: 8rem;
+}
+.home_content h2{
+    opacity: 1;
+}
+.home_content .slogan img{
+    width: 5rem;
+    height: auto;
+}
+.home_content .slogan .logo-big{
+    width: 16rem;
+    height: auto;
+}
+.home_content h4{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: normal;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 0.15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.home_content h4 small{
+    display: block;
+    font-size: 1.2rem !important;
+    margin-top: 1rem;
+    color: rgba(255,255,255,0.6)
+}
+.cta_button_area {
+    position:relative;
+    z-index:2
+}
+
+.cta_button_area {
+    margin-top:3rem;
+}
+
+.cta_button_area button{
+    margin-bottom:2rem;
+}
+
+/*-- Mockups --*/
+
+.home_mockups {
+    position:relative;
+    margin-top:3rem;
+    margin-bottom:-1rem;
+    z-index:3
+}
+
+.home_mockups_2, .home_mockups_3 {
+    position:absolute;
+    margin:0 auto;
+}
+
+.home_mockups_1 {
+    position:relative
+}
+
+.canvas01{
+    position: absolute;
+    bottom: -8.52rem;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+/*公司介绍*/
+
+.subsection {
+    padding-top:4rem;
+    padding-bottom:4rem;
+    position:relative;
+    z-index:4;
+}
+.feature_row {
+    margin-bottom:3rem;
+}
+.gray-f2{
+    background-color: #f2f2f2;
+}
+.white-bg{
+    background-color: #ffffff;
+    padding: 0 3rem 3rem 3rem !important;
+}
+.intro {
+    padding-bottom:3rem;
+}
+
+@media (max-width: 479px) {
+    .content_container h2 {
+        font-size: 2rem;
+        line-height:2rem;
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .top_bar p {margin-top:0.5rem;}
+    .iconbox {margin-bottom:4rem;}
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .top_bar p {
+        margin-top:0.5rem;
+    }
+    .iconbox {margin-bottom:4rem;}
+
+}
+/*--------------------------------------*/
+/* 5. IconBox --------------------------*/
+/*--------------------------------------*/
+
+.iconbox {
+    overflow: auto;
+    margin-bottom:1rem;
+}
+
+.iconbox p {
+    margin-bottom:0;
+}
+
+.iconbox_icon {
+    width: 7rem;
+    font-size:2.5rem;
+    margin:0 auto;
+}
+
+.iconbox_content h5 {
+    margin-top:1.5rem;
+}
+.iconbox_icon {
+    color: rgba(0,0,0,0.5)
+}
+
+/*.info-icon{*/
+    /*margin-top:1rem;*/
+    /*width: 7rem !important;*/
+    /*height: 7rem;*/
+    /*line-height: 7rem;*/
+    /*background-color: #5584ff;*/
+    /*color: #ffffff !important;*/
+    /*text-align: center;*/
+    /*border-radius: 3.5rem;*/
+/*}*/
+
+.info-icon{
+}
+.info-icon img{
+    float: right;
+    margin-top: 2.2rem;
+    width: 80%;
+    height: auto;
+}
+.info h6{
+    font-size: 1.5rem !important;
+    font-weight: 500 !important;
+    margin-bottom: 1rem !important;
+    color: #333333;
+}
+.info .arrow_icon{
+    margin-right: 0.3rem;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 2rem;
+    color: #333333;
+}
+.info p{
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 2rem;
+    color: #333333;
+}
+
+.product-bg{
+    background: url('../images/product-bg01.jpg') center no-repeat;
+}
+.product-info{
+    margin: 0;
+    padding: 0;
+}
+.product-info li{
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+.product-shadow{
+    -moz-box-shadow:0 -5px 10px rgba(0,0,0,0.5) inset;               /* For Firefox3.6+ */
+    -webkit-box-shadow:0 -5px 10px rgba(0,0,0,0.5)  inset;            /* For Chrome5+, Safari5+ */
+    box-shadow:0 -5px 10px rgba(0,0,0,0.5) inset;                    /* For Latest Opera */
+}
+.product-info li .product-icon{
+    position: absolute;
+    font-size: 1rem;
+    line-height: 1.72rem;
+}
+.product-info li span{
+    padding-left: 1.2rem;
+    float: left;
+    display: block;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.72rem;
+    opacity: 0.64;
+}
+.product-img01{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.product-img02{
+    width: 60%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: -4rem;
+}
+
+.product-img03{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+}
+.product-img04{
+    position: relative;
+    width: 100%;
+    margin-top: -6rem;
+    margin-left: -4rem;
+}
+.line-short{
+    display:block;
+    width: 30px;
+    height: 3px;
+    background-color: #5584ff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.mychart{
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    top: -2rem
+}
+/*合作伙伴*/
+.clients-title{
+    opacity: 0.8;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+.reviews_logo img {
+    display: block;
+    width: 6rem;
+}
+.clients-box{
+    width: 100%;
+    margin: auto;
+}
+/*.clients-box img:first-child{*/
+    /*margin-left: 0;*/
+/*}*/
+.clients-box2{
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+}
+/*.clients-box2 img:first-child{*/
+    /*margin-left: 0;*/
+/*}*/
+
+.clients-title strong{
+    opacity: 1 !important;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+@media (max-width: 640px) {
+    .clients-title{
+        line-height: 1.5rem;
+        text-align: left !important;
+    }
+}
+.clients-bg{
+    background: url('../images/client-bg.jpg') center no-repeat;
+    width: auto;
+    overflow: hidden;
+}
+.contact{
+    background-color: #2a2e46;
+    position: relative;
+    bottom: 0;
+    color: #ffffff;
+}
+
+/*合作伙伴动画*/
+.clients-canvas{
+    position: absolute;
+    width: 100%;
+    top: 10rem;
+    height:40rem;
+}
+
+/*footer*/
+footer{
+    padding: 1rem;
+    background-color: #2f365e;
+    text-align: center;
+    color : #ffffff;
+    opacity: 1 !important;
+    font-size: 0.8rem !important;
+    font-weight: 500;
+    line-height: 1.6rem;
+    height: 5.2rem;
+    overflow: hidden;
+}
+footer p{
+    font-size: 0.8rem;
+}
+.footer-title{
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    opacity: 1 !important;
+}
+.footer-title img{
+
+}
+.footer-text li{
+    padding-left: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    position: relative;
+    color: #c4c4c4;
+}
+.footer-text li .contact-icon{
+    position: absolute;
+    left: 0;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.footer-link li{
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    position: relative;
+}
+.footer-link li a{
+    color: #c4c4c4;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+}
+.footer-link li a:hover{
+    color: #5584ff !important;
+}
+.footer-social li{
+    display: block;
+    float: left;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+.social-icon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: 2px solid #c4c4c4;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #c4c4c4;
+}
+.social-icon:hover{
+    transition: .6s;
+}
+.sina:hover{
+    background-color: #dc1325;
+    border: 2px solid #dc1325;
+    color: #ffffff;
+}
+.wechat:hover{
+    background-color: #609700;
+    border: 2px solid #609700;
+    color: #ffffff;
+}
+.wechat-img{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left:8rem;
+    top: 1.6rem
+}
+.wechat-xs{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+/*join-us*/
+.top-img{
+    height: 18rem;
+    background:url('../images/banner-bg06-01.jpg') center no-repeat;
+    overflow: hidden;
+}
+
+.canvas02{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+.blogs.blog-with-slider {
+    position: relative;
+    z-index: 98;
+    margin-bottom: 40px;
+}
+
+.page-container {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.12);
+    margin-top: -4rem;
+    padding: 1rem ;
+}
+
+.blogs .post {
+    border-top: 1px #d6d6d6 solid;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 0.05rem;
+}
+.blogs .post:first-child {
+    margin-top: 0;
+    border: none;
+    padding-top: 15px;
+}
+.blogs .post h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+}
+.blogs .post .post-img img, .blogs .post.post-type-image .post-img, .blogs .post.post-type-image img, .blogs .fotorama__img {
+    border-radius: 2px !important;
+    text-align: center;
+}
+img.responsive-img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.blogs .post-short {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 15px;
+    margin-left: 1rem;
+}
+.grey-text.text-darken-2 {
+    color: #616161 !important;
+}
+.grey-text.text-darken-2 p{
+    opacity: 1;
+}
+.blue-text{
+    color: #5584ff;
+}
+.grey-666{
+    color: #666666;
+}
+.grey-666:hover{
+    color: #5584ff;
+    transition: .6s;
+}
+.job{
+    display: block;
+    line-height: 1rem;
+    font-size: 1rem;
+    border-left: 0.3rem solid #5584ff;
+    text-indent: 1rem;
+    margin: 1rem;
+    font-weight: normal;
+    color: #5584ff ;
+    letter-spacing: 0.05rem;
+}
+.job-list-title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333333;
+    line-height: 2.4rem;
+    margin-top: 0;
+    border-bottom: 1px solid #cccccc;
+    letter-spacing: 0.05rem;
+}
+.job-list li{
+    font-size: 1rem;
+    padding: 0.5rem;
+    line-height: 1rem;
+    color: #383838;
+    letter-spacing: 0.05rem;
+}
+.job-list li:first-child{
+    color: #333333;
+    font-weight: 600;
+}
+.job-list li:nth-child(2) .line-short{
+    margin-bottom: 0.6rem;
+}

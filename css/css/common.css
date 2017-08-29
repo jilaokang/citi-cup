@@ -1,0 +1,161 @@
+a {
+  color: #757575;
+  text-decoration: none !important; }
+
+hr {
+  width: 96%; }
+
+.modal-body p {
+  font-size: 1.2em; }
+
+.line_height_10 {
+  line-height: 1; }
+
+.line_height_11 {
+  line-height: 1.1; }
+
+.line_height_12 {
+  line-height: 1.2; }
+
+.line_height_13 {
+  line-height: 1.3; }
+
+.line_height_14 {
+  line-height: 1.4; }
+
+.line_height_15 {
+  line-height: 1.5; }
+
+.line_height_16 {
+  line-height: 1.6; }
+
+.line_height_17 {
+  line-height: 1.7; }
+
+.line_height_18 {
+  line-height: 1.8; }
+
+.line_height_19 {
+  line-height: 1.9; }
+
+.line_height_20 {
+  line-height: 2; }
+
+.line_height_21 {
+  line-height: 2.1; }
+
+.line_height_22 {
+  line-height: 2.2; }
+
+.line_height_23 {
+  line-height: 2.3; }
+
+.line_height_24 {
+  line-height: 2.4; }
+
+.line_height_25 {
+  line-height: 2.5; }
+
+.line_height_26 {
+  line-height: 2.6; }
+
+.line_height_27 {
+  line-height: 2.7; }
+
+.line_height_28 {
+  line-height: 2.8; }
+
+.line_height_29 {
+  line-height: 2.9; }
+
+.line_height_30 {
+  line-height: 3; }
+
+.line_height_10 {
+  line-height: 1; }
+
+.line_height_11 {
+  line-height: 1.1; }
+
+.line_height_12 {
+  line-height: 1.2; }
+
+.line_height_13 {
+  line-height: 1.3; }
+
+.line_height_14 {
+  line-height: 1.4; }
+
+.line_height_15 {
+  line-height: 1.5; }
+
+.line_height_16 {
+  line-height: 1.6; }
+
+.line_height_17 {
+  line-height: 1.7; }
+
+.line_height_18 {
+  line-height: 1.8; }
+
+.line_height_19 {
+  line-height: 1.9; }
+
+.line_height_20 {
+  line-height: 2; }
+
+.line_height_21 {
+  line-height: 2.1; }
+
+.line_height_22 {
+  line-height: 2.2; }
+
+.line_height_23 {
+  line-height: 2.3; }
+
+.line_height_24 {
+  line-height: 2.4; }
+
+.line_height_25 {
+  line-height: 2.5; }
+
+.line_height_26 {
+  line-height: 2.6; }
+
+.line_height_27 {
+  line-height: 2.7; }
+
+.line_height_28 {
+  line-height: 2.8; }
+
+.line_height_29 {
+  line-height: 2.9; }
+
+.line_height_30 {
+  line-height: 3; }
+
+#table {
+  margin: 8px auto; }
+  #table .col-md-12 div {
+    padding: 21.5px 20px;
+    background: white; }
+    #table .col-md-12 div #table_title {
+      padding: 0;
+      border-bottom: 3px solid #c11000;
+      margin-bottom: 28px; }
+    #table .col-md-12 div td {
+      padding-right: 20px; }
+    #table .col-md-12 div #info_identity {
+      border-bottom: 3px solid #f7f7f7; }
+  #table h2 {
+    font-size: 24px;
+    line-height: 0;
+    padding: 0; }
+  #table h3 {
+    font-size: 18.72px;
+    padding: 0;
+    margin: 0; }
+  #table h4 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0; }
