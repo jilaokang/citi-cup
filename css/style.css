@@ -299,7 +299,10 @@ nav ul a:hover {
     /*text-align: center;*/
     /*border-radius: 3.5rem;*/
 /*}*/
-
+.navbar-fixed
+{
+    padding: 1.2em !important;
+}
 .info-icon{
 }
 .info-icon img{
