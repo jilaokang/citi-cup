@@ -10,11 +10,6 @@
           content="Credo、信条主义、武汉学院、花旗杯、基于共享经济、个人征信系统、Matlab、大数据分析、征信平台、企业定制模型">
     <meta name="description" content="基于共享经济下的征信平台，是以平台模型为树干，针对企业定制模型为绿叶，为共享企业提供基于大数据技术的一站式解决方案和服务">
 
-    <!--Bootstrap framework-->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
     <!-- base.css-->
     <link href="../../css/base.css" rel="stylesheet" media="screen"/>
     <!-- style.css-->
@@ -37,24 +32,21 @@
     <header class="navbar-fixed" id="top">
         <nav class="container">
             <div class="nav-wrapper">
-                <a href="index.html" class="float-left"><img class="logo" src="../../picture/logo.png"> </a>
-                <a href="#" id="mobile-nav-btn" class="visible-xs">
+                <a href="../../index.html" class="float-left"><img class="logo" src="../../picture/logo.png"
+                                                                   data-rjs="images/logo@2x.png" alt="光量科技,LOGO"/> </a>
+                <a id="mobile-nav-btn" class="visible-xs">
                     <div data-icon="+" class="mobile-icon float-right"></div>
                 </a>
                 <ul class="float-right">
-                    <li><a href="../../index.html">首页</a>
+                    <li><a class="home" href="../../index.html">首页</a>
                     </li>
-                    <li><a href="index.html#company">公司介绍</a>
+                    <li><a class="company">资料下载</a>
                     </li>
-                    <li><a href="index.html#product">产品与服务</a>
+                    <li><a class="product" href="../model_create/index.html">企业模型</a>
                     </li>
-                    <li><a href="index.html#clients">合作伙伴</a>
+                    <li><a class="clients" href="../model_test/index.html">平台模型</a>
                     </li>
-                    <li><a href="index.html#contact">联系我们</a>
-                    </li>
-
-                    <li><a href="http://www.dfwgp.com/static/dfw/index.html">大富翁股票</a></li>
-                    <li><a class="btn btn-small" href="joinus.html">加入我们</a>
+                    <li><a class="btn btn-small" href="../contact_us/index.html">联系我们</a>
                     </li>
                 </ul>
             </div>
@@ -66,8 +58,8 @@
         <div class="visible-xs">
             <!-- Small Screen Side Nav -->
             <ul class="mobile-nav">
-                <li><a href="#home">首页</a></li>
-                <li><a href="#company">模型简介</a></li>
+                <li><a href="../../index.html">首页</a></li>
+                <li><a href="#company">资料下载</a></li>
                 <li><a href="../model_create/index.html">企业模型</a></li>
                 <li><a href="../model_test/index.html">平台模型</a></li>
                 <li><a href="../contact_us/index.html">关于我们</a></li>
@@ -76,6 +68,7 @@
         </div>
     </div>
 
+    <!--Content right-->
     <section>
         <div class="top-img">
             <canvas class="canvas02 disvisible-xs" id="Mycanvas" width="1920" height="974"></canvas>
@@ -110,7 +103,7 @@
                     <div class="col-md-8 blogs">
                         <!-- Blog List -->
                         <div class="page-container">
-                            <!-- post type image -->
+                            <!-- Group thinking -->
                             <div class="post post-type-image">
                                 <h2>小组理念</h2>
                                 <div class="job">学习 享受 提升</div>
@@ -122,6 +115,48 @@
                                     </p>
                                 </div>
                             </div>
+
+                            <!--Info download-->
+                            <div class="post post-type-image">
+                                <h2>资料下载</h2>
+                                <div class="job">商业计划书 技术文档 其他</div>
+                                <div class="post-short grey-text text-darken-2">
+                                    <h6>全套资料</h6>
+                                    <p>
+                                        公网链接：<a  class="blue-text" href="#">点我下载</a><br>
+                                    </p>
+                                    <h6>备份链接</h6>
+                                    <p>
+                                        1.百度运盘：<a class="blue-text" href="#">www.baiduyun.com</a><br>
+                                        2.七牛云盘：<a  class="blue-text" href="#">www.qiniu.com</a><br>
+                                        3.腾讯云盘：<a class="blue-text"  href="#">www.tengxun.com</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!--Group show-->
+                            <div class="post post-type-image">
+                                <h2>成员简介</h2>
+                                <div class="job">自我介绍</div>
+                                <div class="post-short grey-text text-darken-2">
+                                    <h6>指导老师</h6>
+                                    <p>韦玮：国际贸易学博士，现任武汉学院工商管理系教研主任。<br>
+                                        韦玮：国际贸易学博士，现任武汉学院工商管理系教研主任。<br>
+                                        韦玮：国际贸易学博士，现任武汉学院工商管理系教研主任。<br>
+                                    </p>
+                                    <h6>小组成员</h6>
+                                    <p>钱博康：武汉学院15级软件工程（腾讯精英班）专业。信条主义组长，负责团队内部的协调工作和大赛组委会的沟通。曾负责校网站总体构架，荣获创新创业大赛最佳设计奖，15届“青春杯”辩论赛冠军，热衷户外运动，长途骑行，野外露营，马拉松。<br><br>
+                                        谭开祥：15级软件工程（腾讯精英班）专业。任信条主义建模组组长，负责模型的构建以及系统开发的工作。获得哈弗大学Computer Science 50证书认证，大二参加校内创新创业比赛获最佳创意奖，熟练掌握C++，Javascript，Vue开发设计及各种图像处理工具，专攻大数据和数学建模。<br><br>
+                                        贺诗亮：武汉学院15级软件工程（腾讯精英班）专业。软件开发组组长，负责软件开发环节。曾参与维护部分学校网站的安全性维护与评估，担任众焰科技有限公司技术总监，负责架构设计，技术选型，服务端开发以及部分客户端开发。<br><br>
+                                        肖攀：15级电子商务专业负责信息调研和数据收集工作，参加过校公众号新媒体运营，大二被公司直招录取，担任校园经理，带领团队销售过百万。<br><br>
+                                        王斌清：15级电子商务专业。负责策划文与模型架构。担校长办公室助理，曾参加过创新创业大赛和市场营销大赛，专业知识在系内名列前茅。<br><br>
+                                        陈金翼：15级金融学专业，辅修会计学专业。信条主义策划和建模组组员，负责风险分析、项目报告的完善以及建模指标的筛选工作，通过金融学的角度来分析项目的各种风险。<br><br>
+                                        林艳杰：14级国际贸易专业，辅修会计学专业。信条主义策划和建模组组员，负责风险分析、项目报告的完善以及建模指标的筛选工作，通过金融学的角度来分析项目的各种风险。
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!--Contact us-->
                             <div class="post post-type-image">
                                 <h2>联系我们</h2>
                                 <div class="post-short grey-text text-darken-2">
@@ -134,77 +169,6 @@
 
                             </div>
 
-                            <div class="post post-type-image">
-                                <h2>成员简介</h2>
-                                <div class="job">自我介绍</div>
-                                <div class="post-short grey-text text-darken-2">
-                                    <h6>指导老师</h6>
-                                    <p>1.负责对金融业务数据、用户数据进行深入分析与挖掘，建立并优化数据挖掘模型。<br>
-                                        2.负责金融产品数据量化模型的算法研究、结果检验。<br>
-                                        3.能够针对股票、期货等金融数据进行清洗、整理、分析和挖掘。<br>
-                                        4.根据公司的产品需要，进行策略开发，包括数量建模、回测分析、数据挖掘、特定类型策略研究等。<br>
-                                        5.负责数据挖掘或数据分析项目。
-                                    </p>
-                                    <h6>小组成员</h6>
-                                    <p>1.数学、统计、金融数学或计算机等相关专业，本科及以上学历。<br>
-                                        2.2年以上相关工作经验，有统计建模机器学习(聚类、分类、预测、回归等)或数据挖掘应用的项目经验优先。<br>
-                                        3.熟练掌握Python或R或SAS；熟悉java开发优先。<br>
-                                        4.精通数据库，熟悉SQL语言，具备熟练的数据处理技巧。<br>
-                                        5.对数据敏感，有较强的创新意识，善于思考，有团队精神。<br>
-                                        6.有股票、期货、外汇等金融投资经验者优先。
-                                    </p>
-                                    <span>发简历至：<a id="project-01" class="blue-text" href="mailto:hr@stockpalm.com">hr@stockpalm.com</a></span>
-                                </div>
-                            </div>
-
-                            <div class="post post-type-image">
-                                <h2>测试工程师QA</h2>
-                                <div class="job">职位介绍</div>
-                                <div class="post-short grey-text text-darken-2">
-                                    <h6>你将要做的</h6>
-                                    <p>
-                                        1.负责项目/产品的测试工作，参与产品需求分析，负责测试计划制定,并能预先评估项目风险，确保测试活动的顺利开展<br>
-                                        2.深入理解系统内部的设计原理，并能从测试的角度提供优化意见；<br>
-                                        3.根据产品需求和产品设计,&nbsp;编写测试用例；<br>
-                                        4.实施软件测试，完成对产品的集成测试与系统测试，对产品的功能、性能及其他方面的测试负责；协助相关人员定位解决问题；能够按照自动化测试要求完成测试；<br>
-                                        5.汇总测试执行情况，编制相关报告；<br>
-                                        6.通过总结、对外交流、技术钻研和培训，进行测试过程和测试方法的持续改进。
-                                    </p>
-                                    <h6>希望你是</h6>
-                                    <p>
-                                        1.本科学历，具有2年以上测试工作经验；<br>
-                                        2.了解金融知识、有过金融行业软件测试经验者优先；<br>
-                                        3.金融或会计等相关专业者优先；<br>
-                                        4.熟悉测试流程和规范，熟练掌握软件测试方法和常用测试工具，对互联网质量保证领域有强烈的兴趣；<br>
-                                        5.了解Java/Python至少熟悉一种语言；<br>
-                                        6.熟悉SQL查询语言；<br>
-                                        7.具有较强的业务分析能力，较好的沟通表达和综合协调能力；
-                                    </p>
-                                    <span>发简历至：<a id="data-03" class="blue-text" href="mailto:hr@stockpalm.com">hr@stockpalm.com</a></span>
-                                </div>
-                            </div>
-
-                            <div class="post post-type-image">
-                                <h2>前端开发工程师</h2>
-                                <div class="job">职位介绍</div>
-                                <div class="post-short grey-text text-darken-2">
-                                    <h6>你将要做的</h6>
-                                    <p>1.与产品经理以及后端团队协作, 开发金融数据相关的产品开发
-                                    </p>
-                                    <h6>希望你是</h6>
-                                    <p>1.至少3年以上工作经验，有扎实的前端技术基础，包括但不限于 HTML、CSS、JavaScript、DOM<br>
-                                        2.对计算机相关基础知识有较好的理解，熟悉服务端开发技术<br>
-                                        3.熟悉常见的前端框架、库、工具，例如：jQuery、AngularJS、Backbone.js、React、Grunt、Gulp 等<br>
-                                        4.有复杂数据的交互开发经验，在乎设计细节以及前端的整体架构<br>
-                                        5.有金融行业经验者优先
-                                    </p>
-                                    <h6>加分项</h6>
-                                    <p>1.对前端技术有自己的理解跟看法<br>
-                                        2.有独立的技术博客<br>
-                                        3.Github活跃用户 </p>
-                                    <span>发简历至：<a id="data-03" class="blue-text" href="mailto:hr@stockpalm.com">hr@stockpalm.com</a></span>
-                                </div>
-                            </div>
 
                         </div>
                         <!--/ Blog List -->
@@ -214,6 +178,7 @@
         </div>
     </section>
 
+    <!--Contact us-->
     <section class="subsection contact">
         <div class="container">
             <div class="row">
@@ -271,6 +236,8 @@
             </div>
         </div>
     </section>
+
+    <!--Footer-->
     <footer id="footer">
         <div class="container">
             <div class="row">
