@@ -81,6 +81,12 @@
   padding: 0;
   margin: 0; }
 
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  #report .row {
+    margin: 0 auto !important; }
+
+  #table div td h4 {
+    font-size: 0.8em !important; } }
 #table_title {
   padding: 0;
   border-bottom: 3px solid #c11000;

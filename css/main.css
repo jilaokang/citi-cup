@@ -26,7 +26,13 @@
     margin: 0 auto !important; }
 
   #table td h4, #table td input {
-    font-size: 0.8em !important; } }
+    font-size: 0.8em !important; }
+
+  .row, .col-xs-12, .container {
+    padding: 0 !important; }
+
+  #table .col-md-12 div td {
+    padding-right: 6px !important; } }
 @media screen and (min-width: 321px) and (max-width: 375px) {
   html {
     font-size: 11px; } }
