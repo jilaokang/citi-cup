@@ -1,5 +1,5 @@
 #report .row {
-  margin: auto 188px !important; }
+  margin: auto 10em !important; }
   #report .row div {
     padding: 0 !important;
     margin: 0 !important; }
@@ -9,7 +9,7 @@
   #report .row .col-md-10 {
     font-size: 1.2em !important;
     line-height: 1.5;
-    margin-top: 20px; }
+    margin-top: 1.5em; }
   #report .row #table_title2 {
     border-bottom: 3px solid #C11000; }
 #report h1 {
@@ -21,6 +21,9 @@
   width: 100%;
   margin-bottom: 38px; }
 
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  #report .row {
+    margin: 0 auto !important; } }
 @media screen and (min-width: 321px) and (max-width: 375px) {
   html {
     font-size: 11px; } }
