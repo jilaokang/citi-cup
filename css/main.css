@@ -29,7 +29,7 @@
     font-size: 0.8em !important; }
 
   #table .col-md-12 div td {
-    padding-right: 0px !important; } }
+    padding-right: 3px !important; } }
 @media screen and (min-width: 321px) and (max-width: 375px) {
   html {
     font-size: 11px; } }
