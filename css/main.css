@@ -25,7 +25,7 @@
   #report .row {
     margin: 0 auto !important; }
 
-  #table td h4 {
+  #table td h4, #table td input {
     font-size: 0.8em !important; } }
 @media screen and (min-width: 321px) and (max-width: 375px) {
   html {
