@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 #report {
   .row {
     margin: auto 10em !important;
@@ -36,16 +35,22 @@
     margin-bottom: 38px;
   }
 }
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
-  #report{
-    .row{
+  #report {
+    .row {
       margin: 0 auto !important;
     }
-    h4{
-      font-size: 1.2em;
+  }
+  #table {
+    td {
+      h4 {
+        font-size: 0.8em !important;
+      }
     }
   }
 }
+
 @media screen and (min-width: 321px) and (max-width: 375px) {
   html {
     font-size: 11px
